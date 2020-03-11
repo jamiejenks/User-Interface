@@ -63,4 +63,10 @@ h1, h2, h3, h4, h5 {
     margin-bottom: 15px;
 }
 
-/* Your code starts here! */
+/* Your code starts here! 
+
+HEADER STYLES*/
+header h1{
+	display: inline-block;
+	font-size: 33px;
+}
