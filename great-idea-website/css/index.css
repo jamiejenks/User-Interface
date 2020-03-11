@@ -65,7 +65,8 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-/*HEADER STYLES*/
+/*HERO STYLE*/
+
 nav{
 	margin: 3% 0;
 	display: inline-block;
@@ -80,30 +81,53 @@ nav a{
 	max-width: 15%;
 	margin-left: 10%;
 }
-.buttonhead{
-	display: flex;
-	flex-direction: column;
+header div{
+	display: inline-block;
 	width: 45%;
 }
-.circle{
-	display:inline-block;
-	width: 35%;
+.buttonhead h1, button{
+	display:block;
+}
+.buttonhead{
+	margin: 3% 3%;
+	padding-left: 6%;
+	padding-bottom: 10%;
 }
 h1{
 	display:inline-block;
-	font-size: 30px;
+	font-size: 65px;
 	width: 45%;
 	text-align: center;
-	margin: 0 auto;
 }
 button{
-	background-color: white;
-	margin: 3% auto;
 	border: none;
+	background-color: white;
+	width: 50%;
 }
 button a{
 	color: gray;
 	text-decoration: none;
 	padding: 5px 30px;
 	border: 2px solid grey;
+}
+
+/* ABOUT SECTION STYLE*/
+.abouttop div{
+	display: inline-block;
+	width: 45%;
+	padding: 30px;
+}
+.abouttop{
+	border-top: 3px solid gray;
+}
+.middle-img{
+	width:100%;
+}
+.aboutbot div{
+	display:inline-block;
+	width: 30%;
+	padding: 30px;
+}
+.aboutbot{
+	border-bottom: 3px solid gray;
 }
