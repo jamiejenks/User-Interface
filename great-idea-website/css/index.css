@@ -80,9 +80,9 @@ nav a{
 	text-decoration: none;
 }
 .logo {
-	display: inline-block;
 	width: 15%;
-	margin-left: 4%;
+	margin-left: 3%;
+	float: right;
 }
 header div{
 display: inline-block;
