@@ -49,7 +49,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +64,97 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+/*HERO STYLE*/
+body{
+	margin: 8%;
+	margin-top: 0;
+}
+nav{
+	margin: 3% 0;
+	display: inline-block;
+	width: 100%;
+}
+nav a{
+	padding: 15px;
+	color: grey;
+	text-decoration: none;
+}
+.logo {
+	width: 15%;
+	margin: 0 3%;
+	float: right;
+}
+header div{
+display: inline-block;
+}
+.buttonhead h1, button{
+	display:block;
+}
+.headimg{
+	width: 40%;
+}
+.circle{
+	float: right;
+	width: 100%;
+}
+.buttonhead{
+	margin: 3%;
+	padding: 5%;
+	padding-left: 0;
+	float: left;
+}
+h1{
+	display:inline-block;
+	font-size: 65px;
+	width: 45%;
+	text-align: center;
+}
+button{
+	border: none;
+	background-color: white;
+	max-width: 100%;
+}
+button a{
+	color: gray;
+	text-decoration: none;
+	padding: 5px 30px;
+	border: 2px solid grey;
+}
+
+/* ABOUT SECTION STYLE*/
+.abouttop{
+	border-top: 1px solid gray;
+	display: inline-block;
+}
+.abouttop div{
+	display: inline-block;
+	padding: 10px;
+	width: 45%;
+	padding: 3%;
+}
+
+.middle-img{
+	width:100%;
+}
+.aboutbot div{
+	display:inline-block;
+	width: 30%;
+	padding: 30px;
+}
+.aboutbot{
+	border-bottom: 1px solid gray;
+}
+
+/* Contact style*/
+address h3{
+	margin: 2% 1%;
+}
+address p{
+	margin-bottom: 1%;
+}
+
+/*footer*/
+footer{
+	text-align: center;
+}
